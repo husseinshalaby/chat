@@ -1,0 +1,37 @@
+.user-info {
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 24%;
+  border-radius: 12px;
+  height: 300px;
+}
+
+.user-info h2 {
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 19px;
+  text-align: center;
+}
+
+.user-info p {
+  padding: 10px;
+}
+
+.user-info.dark {
+  background: #000
+}
+
+.user-info span {
+  font-weight: bold;
+  font-size: 16px;
+  word-break: break-word;
+}
+
+@media (max-width: 788px) {
+  .user-info {
+    width: 95%;
+    margin: 10px auto 20px;
+    min-height: 270px;
+  }
+ }

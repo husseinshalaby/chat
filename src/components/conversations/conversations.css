@@ -1,0 +1,28 @@
+.conversations {
+  list-style: none;
+  width: 24%;
+  margin: 0;
+  padding-left: 0;
+  display: inline-block;
+  max-height:800px;
+  overflow: auto;
+}
+
+.conversations-search {
+  width: 99%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.conversations-search::placeholder {
+  font-size: 16px;
+}
+
+@media (max-width: 788px) {
+  .conversations {
+    min-height: 650px;
+    width: 95%;
+    margin: 10px auto;
+  }
+ }

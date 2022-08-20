@@ -1,0 +1,13 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  font-size: 50px;
+}
+
+.error button {
+  margin-top: 50px;
+  font-size: 30px
+}

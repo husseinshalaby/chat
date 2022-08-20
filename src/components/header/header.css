@@ -1,0 +1,43 @@
+.app-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.app-header h1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-item {
+  border: none;
+  background: inherit;
+  font-size: 40px;
+  padding-top: 4px;
+}
+
+.icon {
+  color: #000;
+  margin-left: 10px
+}
+.icon.dark {
+  color: #fff
+}
+.icon:hover {
+  color: #FFBC0E
+}
+
+@media (max-width: 788px) {
+  .app-header h1 {
+   font-size: 25px;
+  }
+
+  .nav-list-item {
+    font-size: 30px;
+  }
+ }
